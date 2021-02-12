@@ -30,7 +30,8 @@ function yearMonthDisplay(filterMonthYear) {
   return displays;
 }
 
-const API_URL = 'http://localhost:3001/api/transaction';
+const API_URL =
+  'https://visceral-finance-control-app.herokuapp.com/api/transaction';
 
 async function getFilterTransactions(filterMonthYear) {
   let filterMonth = '';
