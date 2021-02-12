@@ -1,0 +1,77 @@
+div {
+  border: 0px;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  margin-top: -10px;
+  font-family: sans-serif;
+}
+
+.tdReceita {
+  border: 0px;
+  border-left-width: 0;
+  min-width: 50px;
+  height: 10px;
+  background-color: #63cdda;
+}
+
+.tdDespesa {
+  border: 0px;
+  border-left-width: 0;
+  min-width: 50px;
+  height: 10px;
+  align-content: center;
+  background-color: #f78fb3;
+}
+
+.day {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.category {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.value {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.newFilter {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.divSee {
+  border-width: 6px;
+  border-style: dashed;
+  border-color: #f00;
+}
